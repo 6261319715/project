@@ -1,0 +1,143 @@
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: url(https://static.vecteezy.com/syhttps://stock.adobe.com/in/images/dropout-text-written-on-orange-postal-stamp/838190803stem/resources/previews/024/622/107/https://stock.adobe.com/in/images/dropout-text-written-on-orange-postal-stamp/838190803/creative-student-studying-at-desk-holding-pencil-and-writing-notes-generated-by-ai-photo.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+}
+.contact {
+    padding: 40px 0;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.btn {
+    background: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+.navbar {
+
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+  position: relative;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: #ff7200;
+}
+
+
+.menu ul li::after {
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+
+}
+
+.menu ul li:hover::after{
+  width: 65px;
+
+}
+
+.btn:hover {
+    background-color: #005bb5;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}

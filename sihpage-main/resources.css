@@ -1,0 +1,105 @@
+/* Resources Page Styles */
+.resources {
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgb(16, 19, 112);
+  position: cover;
+}
+.navbar {
+
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+  position: relative;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #141313;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: #ff7200;
+}
+
+
+.menu ul li::after {
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+
+}
+
+.menu ul li:hover::after{
+  width: 65px;
+
+}
+
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.resource {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(16, 19, 112);
+    border-radius: 5px;
+    background: transparent;
+}
+
+.resource h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.resource p {
+    color: #777;
+    margin-bottom: 20px;
+}
